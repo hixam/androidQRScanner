@@ -1,0 +1,19 @@
+<html>
+<header>
+    <script type="text/javascript" src="js/qrscan.js"></script>
+</header>
+<body>
+<video autoplay="true" id="webcam" width=320></video>
+<script>
+
+$( document ).ready(function() {
+    QRReader.init("#webcam", "js/");
+    QRReader.scan(function (result) {
+    console.log(result);
+});});
+
+
+</script>
+
+</body>
+</html>
