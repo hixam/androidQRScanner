@@ -12,6 +12,4 @@
         android:text="@string/scan_from_fragment"
         android:id="@+id/scan_from_fragment"/>
 
-
-
 </LinearLayout>

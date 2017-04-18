@@ -1,6 +1,4 @@
-
-
-    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent" android:layout_height="match_parent"
         android:background="@color/dim_foreground_disabled_material_dark">
         <TableRow android:layout_weight="1"
@@ -33,4 +31,3 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"/>
     </TableLayout>
-

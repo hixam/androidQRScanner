@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
                 Intent webviewIntent = new Intent(MainActivity.this, webViewActivity.class);
                 webviewIntent.putExtra("qrCode", rawResult.getText());
                 startActivity(webviewIntent);
+
                // If you would like to resume scanning, call this method below:<br />
         // mScannerView.resumeCameraPreview(this);<br />
     }
