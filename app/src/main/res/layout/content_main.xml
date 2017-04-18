@@ -1,0 +1,36 @@
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:background="@color/dim_foreground_disabled_material_dark">
+        <TableRow android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </TableRow>
+
+
+        <Button
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="24dp"
+            android:text="Realizar Pedido"
+            android:onClick="QrScanner"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="24dp"
+            android:text="Sobre nosotros"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:padding="24dp"
+            android:text="info"/>
+        <TableRow android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </TableLayout>
+
